@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Content Slider with Navigation Pane</title>
+
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <div class="container">
+      <div id="left-pane" class="col-md-8">
+        <ul class="proj-imgs col-md-12">
+          <li class="proj-img active"><img src="img/cat1.jpg"></li>
+          <li class="proj-img"><img src="img/cat2.jpg"></li>
+          <li class="proj-img"><img src="img/cat3.jpg"></li>
+        </ul>
+      </div>
+      <!--  proj-description -->
+      <div id="right-pane" class="col-md-4">
+        <div class="row" id="proj-nav">
+
+              <div class="col-md-3">
+              <button class="btn" id="previous">previous</button>
+              </div>
+              <div class="col-md-6">
+                <ul class="proj-titles">
+                  <li class="proj-title active"><h3>cat 1</h3></li>
+                  <li class="proj-title"><h3>cat 2</h3></li>
+                  <li class="proj-title"><h3>cat 3</h3></li>
+                </ul>
+              </div>
+              <div class="col-md-3">
+              <button class="btn" id="next">next</button>
+              </div>
+ 
+        </div>
+
+        <div class="row" id="proj-description">
+          <div class="col-md-12">
+            <ul class="proj-items">
+              <li class="proj-item active">
+                <div class="proj-content">
+                  <h4>description</h4>
+                  <p> CAT 1 Here's something about this</p>
+                </div>
+                <div class="proj-stats">
+                  <h4>tech</h4>
+                  <p> CAT 1 Here's something about this</p>
+                </div>
+              </li>
+              <li class="proj-item">
+                <div class="proj-content">
+                <h4>description</h4>
+                <p> CAT 2 Here's something about this</p>
+              </div>
+              <div class="proj-stats">
+                <h4>tech</h4>
+                <p> CAT 2 Here's something about this</p>
+              </div>
+              </li>
+              <li class="proj-item">
+                <div class="proj-content">
+                <h4>description</h4>
+                <p> CAT 3 Here's something about this</p>
+              </div>
+              <div class="proj-stats">
+                <h4>tech</h4>
+                <p> CAT 3 Here's something about this</p>
+              </div>
+              </li>
+            </ul>
+          </div>
+      </div>
+      </div><!--end of right pane -->
+    </div><!--end of container -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
+
+

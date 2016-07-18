@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#projects {
+  height: 100%;
+  width: 100%;
+}
+
+/*outlining the divs*/
+#left-pane {
+  position: absolute;
+  height: 100%;
+  /*border: 2px solid violet;*/
+  left:0;
+}
+
+.proj-imgs {
+  position: relative;
+  height: 100%;
+}
+
+.proj-img {
+  position: relative;
+  list-style: none;
+  left:25%;
+  top:25%;
+}
+
+#right-pane {
+  position: absolute;
+  height: 100%;
+  /*border: 2px solid blue;*/
+  right:0;
+}
+
+#proj-nav {
+  position: relative;
+  /*border: 4px solid green;*/
+  padding: 5px;
+  height: 10%;
+}
+
+#proj-nav .proj-title {
+  position: absolute;
+  list-style: none;
+}
+
+
+#proj-description {
+  position: relative;
+  height:90%;
+  /*border: 4px solid magenta;*/
+}
+
+#proj-description .col-md-12 {
+  height: 100%;
+}
+
+#proj-description .col-md-12 .proj-items {
+  position: relative;
+  height: 100%;
+  /*border: 2px solid orange;*/
+  padding: 0;
+}
+
+#proj-description .col-md-12 .proj-items .proj-item {
+  position: relative;
+  list-style: none;
+  height: inherit;
+}
+
+/*#proj-description .proj-items .proj-item */
+.proj-content {
+  height: 65%;
+  /*border: 2px solid yellow;*/
+}
+
+.proj-stats {
+  height:30%;
+}
+
+
+
+
+
+
+
+
+
