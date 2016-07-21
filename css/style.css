@@ -134,8 +134,11 @@ body {
 .proj-img {
   position: relative;
   list-style: none;
-  left:25%;
-  top:25%;
+  /*For the cat photos*/
+  /*left:25%;*/
+  /*top:25%;*/
+  left: 12%;
+  top: 15%;
 }
 
 .proj-img img {
