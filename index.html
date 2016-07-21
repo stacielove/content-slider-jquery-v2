@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Content Slider with Navigation Pane</title>
+
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <div class="container">
+      <div id="left-pane" class="col-md-8">
+        <ul class="proj-imgs col-md-12">
+          <li class="proj-img active"><img src="img/browser1.png"></li>
+          <li class="proj-img"><img src="img/browser2.png"></li>
+          <li class="proj-img"><img src="img/browser3.png"></li>
+        </ul>
+      </div>
+      <!--  proj-description -->
+      <div id="right-pane" class="col-md-4">
+        <div class="row" id="proj-nav">
+
+              <div class="col-md-3 text-left">
+              <button class="btn" id="previous"><i class="glyphicon glyphicon-chevron-left"></i></button>
+              </div>
+              <div class="col-md-6 text-center">
+                <ul class="proj-titles text-center">
+                  <li class="proj-title active"><h3>Man Man Van</h3></li>
+                  <li class="proj-title"><h3>Sequoia</h3></li>
+                  <li class="proj-title"><h3>Road Trip</h3></li>
+                </ul>
+              </div>
+              <div class="col-md-3 text-right">
+              <button class="btn" id="next"><i class="glyphicon glyphicon-chevron-right"></i></button>
+              </div>
+ 
+        </div>
+
+        <div class="row" id="proj-description">
+          <div class="col-md-12">
+            <ul class="proj-items">
+              <li class="proj-item active">
+                <div class="proj-content">
+                  <h4>description</h4>
+                  <p>by Jesse Morrow (Man man van: two guys, one van). Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec urna ipsum, ultrices eu enim vitae, maximus interdum ex. Vivamus in tortor sed nunc gravida tincidunt. Aliquam erat volutpat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nam orci leo, pulvinar id dignissim nec, sagittis faucibus nunc. Sed mollis euismod nisl eu mollis. Etiam tincidunt tortor blandit sapien lacinia dignissim id sed lorem. Mauris venenatis arcu nec turpis finibus, vel aliquam quam viverra.</p>
+                </div>
+                <div class="proj-stats">
+                  <h4>tech</h4>
+                  <p> CAT 1 Here's something about this</p>
+                </div>
+              </li>
+              <li class="proj-item">
+                <div class="proj-content">
+                <h4>description</h4>
+                <p> by Chaney Swiney (Sequoia: find your park: part siz). Nam at placerat elit, ut ultrices dolor. Cras ut interdum ex. Nam lobortis diam ut tortor pellentesque, eget finibus massa consequat. Fusce ut pellentesque nisi, at fringilla justo. Aenean malesuada lorem quis varius commodo. Aenean dictum massa vel dui malesuada, sed lobortis felis cursus. Pellentesque eu rutrum velit</p>
+              </div>
+              <div class="proj-stats">
+                <h4>tech</h4>
+                <p> CAT 2 Here's something about this</p>
+              </div>
+              </li>
+              <li class="proj-item">
+                <div class="proj-content">
+                <h4>description</h4>
+                <p> by Matthew Novak (The uncanadian road trip: dealing with disappointment as injuries get in the way of adventure). Sed dapibus et ligula pharetra tempor. Fusce scelerisque tristique augue, a dapibus ante. Ut non justo tempor, tristique est non, laoreet est. Morbi sagittis pharetra mauris eu eleifend. Curabitur mattis mauris sit amet magna tempus, a pharetra lectus suscipit. Sed nec purus turpis. In hac habitasse platea dictumst. Ut vel feugiat risus.</p>
+              </div>
+              <div class="proj-stats">
+                <h4>tech</h4>
+                <p> CAT 3 Here's something about this</p>
+              </div>
+              </li>
+            </ul>
+          </div>
+      </div>
+      </div><!--end of right pane -->
+    </div><!--end of container -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
+
+

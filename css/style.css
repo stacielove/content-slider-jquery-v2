@@ -1,0 +1,284 @@
+/*@import url(http://fonts.googleapis.com/css?family=Raleway:400,300,800|Lora:400italic|Playfair+Display:700|Open+Sans:600|Montserrat:400,700|Lato:400,700,900|Libre+Baskerville:400,700,400italic|);
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#projects {
+  height: 100%;
+  width: 100%;
+}*/
+
+/*outlining the divs*/
+/*#left-pane {
+  position: absolute;
+  height: 100%;
+*/  /*border: 2px solid violet;*/
+/*  left:0;
+}
+
+.proj-imgs {
+  position: relative;
+  height: 100%;
+}
+
+.proj-img {
+  position: relative;
+  list-style: none;
+  left:25%;
+  top:25%;
+}
+
+#right-pane {
+  position: absolute;
+  height: 80%;*/
+  /*border: 2px solid blue;*/
+  /*margin-top: 5%;
+  right:0;
+    -webkit-box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.15);
+  -ms-box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.15);
+  box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+#proj-nav {
+  position: relative;*/
+  /*border: 4px solid green;*/
+  /*padding: 5px;
+  margin-top: 10%;
+
+}
+
+#proj-nav .btn {
+  margin-top: 20px;
+  background-color: #fff;
+  color:#efefef;
+  border: 2px solid;
+  padding: 10px 30px;
+  margin-top: 15px
+}
+
+#proj-nav .btn:hover {
+  color: grey;
+
+}
+
+.proj-title {
+  position: absolute;
+  list-style: none;
+}
+
+#proj-description {
+  position: relative;
+  height:90%;*/
+  /*border: 4px solid magenta;*/
+
+/*}
+
+#proj-description .col-md-12 {
+  height: 100%;
+}
+
+#proj-description .col-md-12 .proj-items {
+  position: relative;
+  height: 100%;*/
+  /*border: 2px solid orange;*/
+  /*padding: 0;
+}
+
+ .proj-item {
+  position: relative;
+  list-style: none;
+  height: inherit;
+  padding: 0 50px 0 10px;
+}
+
+.proj-content {
+  padding-top: 20px;
+  height: 50%;*/
+  /*border: 2px solid yellow;*/
+/*}
+
+.proj-stats {
+  height:30%;
+}*/
+
+/*UPDATED CSS*/
+
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,300,800|Lora:400italic|Playfair+Display:700|Open+Sans:600|Montserrat:400,700|Lato:400,700,900|Libre+Baskerville:400,700,400italic|);
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #efefef;
+}
+
+#projects {
+  height: 100%;
+  width: 100%;
+}
+
+/*outlining the divs*/
+#left-pane {
+  position: absolute;
+  height: 100%;
+  /*border: 2px solid violet;*/
+  left:0;
+}
+
+.proj-imgs {
+  position: relative;
+  height: 100%;
+}
+
+.proj-img {
+  position: relative;
+  list-style: none;
+  /*For the cat photos*/
+  /*left:25%;*/
+  /*top:25%;*/
+  left: 12%;
+  top: 15%;
+}
+
+.proj-img img {
+  box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+#right-pane {
+  margin-top: 5%;
+  background-color: #fff;
+  position: absolute;
+  height: 80%;
+  /*border: 2px solid blue;*/
+  right: 20px;
+  padding-top: 15px;
+  -webkit-box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.15);
+  -ms-box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.15);
+  box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.15);
+
+}
+
+#proj-nav {
+  position: relative;
+  /*border: 4px solid green;*/
+  /* padding: 5px; */
+  /*padding-top: 10px;*/
+  /* margin-top: 10%; */
+  /*padding-bottom: 10px;*/
+  padding: 0;
+}
+
+#proj-nav .btn {
+  /* margin-top: 20px; */
+  background-color: #DDDDDD;
+  color: #efefef;
+  /* border: 2px solid; */
+  /* padding: 10px 30px; */
+  font-size: 21px;
+  /* margin-top: 15px; */
+  width: 100%;
+  height: 50px;
+  border-radius: 0px;
+  /* box-shadow: 5px 1px 6px rgba(0, 0, 0, 0.15); */
+}
+
+#proj-nav .text-left {
+  padding-left:0;
+}
+
+#proj-nav .text-right {
+  padding-right:0;
+}
+
+#proj-nav .btn:hover {
+  color: grey;
+}
+
+#proj-nav ul {
+  padding: 0;
+}
+
+.proj-title {
+  /*padding: 0;*/
+  list-style: none;
+}
+
+.proj-title h3 {
+  position: absolute;
+  /*list-style: none;*/
+  font-family: "Lato";
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: 700;
+  margin-top: 15px;
+  width: 90%;
+}
+
+#proj-description {
+  position: relative;
+  height:90%;
+  /*border: 4px solid magenta;*/
+
+}
+
+#proj-description .col-md-12 {
+  height: 100%;
+}
+
+#proj-description .col-md-12 .proj-items {
+  position: relative;
+  height: 100%;
+  /*border: 2px solid orange;*/
+  padding: 0;
+}
+
+.proj-item {
+  position: relative;
+  list-style: none;
+  height: inherit;
+  padding: 0 50px 0 10px;
+}
+
+.proj-item h4 {
+  font-family: 'Lato';
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 5px;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.proj-item p {
+  font-family: "Libre Baskerville", serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 12px;
+}
+
+.proj-content {
+  padding-top: 20px;
+  height: 50%;
+  /*border: 2px solid yellow;*/
+}
+
+.proj-stats {
+  height:30%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
