@@ -196,7 +196,12 @@ body {
   color: grey;
 }
 
+#proj-nav ul {
+  padding: 0;
+}
+
 .proj-title {
+  /*padding: 0;*/
   list-style: none;
 }
 
@@ -207,8 +212,8 @@ body {
   text-transform: uppercase;
   letter-spacing: 5px;
   font-weight: 700;
-  padding-left: 40px;
   margin-top: 15px;
+  width: 90%;
 }
 
 #proj-description {
